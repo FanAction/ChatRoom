@@ -6,6 +6,7 @@ using namespace std;
 Server::Server()
 {
     //!Init Server Addr and port
+    //!This is Test
     serverAddr.sin_family = PF_INET;
     serverAddr.sin_port = htons(SERVER_PORT);
     serverAddr.sin_addr.s_addr = inet_addr(SERVER_IP);
